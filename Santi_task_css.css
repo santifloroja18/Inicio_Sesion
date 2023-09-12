@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 127, 163);
+    height: 20vh;
+    width: 40vh;
+    border-radius: 2vh;
+}
+
+label{
+    color: aliceblue;
+    margin: 1vh;
+}
+
+#boton{
+    color: aliceblue;
+    background-color: gray;
+    
+}
+
+#boton:hover{
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+
+input{
+    background-color: aliceblue;
+    border-radius: 2vh;
+    margin: 0.6vh;
+}
+
+.inp:hover{
+    background-color: rgb(24, 24, 24);
+    cursor: grab;
+    
+}
